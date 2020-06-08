@@ -14,6 +14,32 @@ public class Main {
 
         int maxValue = 2_147_483_647; // hanya untuk memudahkan membaca
 
-        //byte, short, long
+
+        //assignment
+        //cari nilai min & max dari tipe data byte, short, long
+
+        //Byte
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        byte myMinByteValue = Byte.MIN_VALUE;
+        System.out.println("\nByte\nbyte Maximum value = " + myMaxByteValue);
+        System.out.println("byte Minimum value = " + myMinByteValue);
+        System.out.println("Overflow = " + (myMaxByteValue + 1));
+        System.out.println("Underflow = " + (myMinIntValue - 1));
+        
+        //Short
+        short myMaxShortValue = Short.MAX_VALUE;
+        short myMinShortValue = Short.MIN_VALUE;
+        System.out.println("\nShort\nshort Maximum value = " + myMaxShortValue);
+        System.out.println("short Minimum value = " + myMinShortValue);
+        System.out.println("Overflow = " + (myMaxShortValue + 1));
+        System.out.println("Underflow = " + (myMinIntValue - 1));
+
+        //Long
+        long myMaxLongValue = Long.MAX_VALUE;
+        long myMinLongValue = Long.MIN_VALUE;
+        System.out.println("\nLong\nlong Maximum value = " + myMaxLongValue);
+        System.out.println("long Minimum value = " + myMinLongValue);
+        System.out.println("Overflow = " + (myMaxLongValue + 1));
+        System.out.println("Underflow = " + (myMinIntValue - 1));
     }
 }
