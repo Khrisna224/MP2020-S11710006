@@ -13,9 +13,9 @@ public class Main {
         printConversion(75.114);
     }
 
-    public static int toMilesPerHour(double kilometersPerHour){
+    public static long toMilesPerHour(double kilometersPerHour){
         if(kilometersPerHour < 0) return -1;
-        return ((int)(Math.round((kilometersPerHour / 1.60934))));
+        return Math.round(kilometersPerHour / 1.60934);
     }
     public static void printConversion(double kilometersPerHour){
         // print a message in the format "XX km/h = YY mi/h".
@@ -37,7 +37,7 @@ public class Main {
     public static int toMilesPerHour(double kilometersPerHour){
         int milesPerHour;
         if(kilometersPerHour < 0) return -1;
-        return ((int)(Math.round((kilometersPerHour * 0.621371))));
+        return (Math.round((kilometersPerHour * 0.621371));
     }
     public static void printConversion(double kilometersPerHour){
         // print a message in the format "XX km/h = YY mi/h".
