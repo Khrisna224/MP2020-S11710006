@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Number 1\nValid : " + toMilesPerHour(75.114));
         System.out.println("Invalid : " + toMilesPerHour(-5.6));
 
-        //2
+        // 2
         System.out.println("\nNumber 2");
         printConversion(-1);
         printConversion(75.114);
