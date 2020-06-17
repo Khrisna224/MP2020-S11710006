@@ -16,7 +16,7 @@ public class Main {
         System.out.println(isCatPlaying(false, 36));
         System.out.println(isCatPlaying(false, 35));
     }
-    
+
     public static boolean shouldWakeUp(boolean banking, int hourOfDay){
         if ((hourOfDay < 0 || hourOfDay > 23) || banking == false ) return false;
         else if (hourOfDay < 8 || hourOfDay > 22) return true;
@@ -28,10 +28,9 @@ public class Main {
             if (temperature > 25 && temperature <= 45) return true;
             else return false;
         }
-        else if (summer == false){
+        else{
             if (temperature > 25 && temperature <= 35) return true;
             else return false;
         }
-        return false;
     }
 }
