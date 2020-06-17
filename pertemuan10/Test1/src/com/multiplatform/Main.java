@@ -11,8 +11,8 @@ public class Main {
 
     }
     public static boolean shouldWakeUp(boolean banking, int hourOfDay){
-        if ((hourOfDay < 0 && hourOfDay > 23) || banking == false ) return false;
-        if (hourOfDay < 8 || hourOfDay > 22) return true;
+        if ((hourOfDay < 0 || hourOfDay > 23) || banking == false ) return false;
+        else if (hourOfDay < 8 || hourOfDay > 22) return true;
         return false;
     }
 }
