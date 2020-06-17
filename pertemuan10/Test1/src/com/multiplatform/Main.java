@@ -24,7 +24,7 @@ public class Main {
     }
 
     public static boolean isCatPlaying(boolean summer, int temperature){
-        if (summer == true){
+        if (summer){
             if (temperature > 25 && temperature <= 45) return true;
             else return false;
         }
